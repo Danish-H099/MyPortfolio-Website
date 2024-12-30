@@ -1,10 +1,19 @@
 import './App.css'
+import About from './components/About'
+import Contact from './components/Contact'
+import Header from './components/Header'
+import Portfolio from './components/Portfolio'
 
 function App() {
 
   return (
     <>
-      <h1 className='text-red-600 text-4xl'>My Portfolio</h1>
+    <div className='scroll-smooth'>
+      <Header />
+      <About />
+      <Portfolio />
+      <Contact />
+    </div>
     </>
   )
 }
