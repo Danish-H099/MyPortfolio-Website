@@ -1,26 +1,23 @@
 export default function Portfolio() {
     return (
-        <section id="portfolio" style={{ padding: '60px 20px' }}>
-            <div className="container" style={{ maxWidth: '1200px', margin: '0 auto' }}>
-                <h1 className="text-4xl text-white mb-5">Work</h1>
-                <div className="work-list" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '20px' }}>
-                    <div className="work" style={{ position: 'relative', overflow: 'hidden', borderRadius: '8px' }}>
-                        <img src="work-1.png" alt="" style={{ width: '100%' }} />
-                        <div className="layer" style={{ position: 'absolute', top: '0', left: '0', width: '100%', height: '100%', backgroundColor: 'rgba(0,0,0,0.7)', color: '#fff', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', opacity: '0', transition: 'opacity 0.3s' }}>
-                            <h3>$ App</h3>
-                            <p style={{ textAlign: 'center' }}>I Haven't made any of My work public lately but soon I am going to Upload some of my work which you can Download from the given link also.</p>
-                            <a href="#" style={{ color: '#fff', marginTop: '10px' }}><i className="fa-solid fa-link"></i></a>
-                        </div>
-                    </div>
-                    <div className="work">
-                        <img src="work-2.png" alt="" />
-                        <div className="layer">
-                            <h3># App</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            <a href="#"><i className="fa-solid fa-link"></i></a>
-                        </div>
-                    </div>
+        <section id="portfolio" className="bg-black py-16 px-5">
+        <h1 className="text-4xl text-white mb-5">My Projects</h1>
+            <div className="flex flex-wrap justify-center gap-8">
+                <div className="card bg-white p-5 rounded-lg shadow-lg">
+                    <img src="1.png" alt="Project 1" className="rounded-t-lg w-80" />
+                    <h3 className="text-xl font-semibold mt-4">CelebrateMate</h3>
+                    <p className="mt-2">A Web App to remember Important Dates.</p>
+                    <p className="text-blue underline"><a href="https://github.com/Danish-H099/CelebrateMate">Github</a></p>
+                    <p className="text-blue underline"><a href="https://celebrate-mate.vercel.app/">Demo</a></p>
                 </div>
+                <div className="card bg-white p-5 rounded-lg shadow-lg">
+                    <img src="2.png" alt="Project 1" className="rounded-t-lg w-80" />
+                    <h3 className="text-xl font-semibold mt-4">MegaBlog-Appwrite</h3>
+                    <p className="mt-2">A bloging Web App.</p>
+                    <p className="text-blue underline"><a href="https://github.com/Danish-H099/MegaBlog-Appwrite">Github</a></p>
+                    <p className="text-blue underline"><a href="https://mega-blog-appwrite-theta.vercel.app/">Demo</a></p>
+                </div>
+                
             </div>
         </section>
     );
