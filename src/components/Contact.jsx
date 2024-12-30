@@ -25,7 +25,7 @@ function Contact() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="contact-left space-y-6">
-            <h1 className="text-3xl font-semibold">Contact Me</h1>
+            <h1 className="text-4xl text-white mb-5">Contact Me</h1>
             <p className="flex items-center text-lg">
               <i className="fa-solid fa-envelope mr-2"></i>
               danishhussainda247@gmail.com

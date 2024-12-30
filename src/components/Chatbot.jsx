@@ -33,11 +33,15 @@ function Chatbot() {
     return (
         <>
             <div id="chatbot" className="chatbot-container flex flex-col items-center justify-center min-h-screen bg-black text-white p-4">
-                <input id="user-input" type="text" placeholder="Ask me a question" className="p-2 mb-4 w-80 rounded bg-gray-800 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500" />
-                <button onClick={sendMessage} className="px-6 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500">
-                    Send
-                </button>
-                <div id="response-box" className="mt-4 p-4 bg-gray-800 w-80 rounded text-white">this is the resulst</div>
+            <div className="w-[600px] p-4 bg-gray-900 rounded-lg">
+                <div className="w-[600] m-auto flex justify-center">
+                    <input id="user-input" type="text" placeholder="Ask me a question" className="p-2 mb-4 w-[70%] rounded bg-gray-800 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500" />
+                    <button onClick={sendMessage} className=" w-[13%]  mb-4  mx-2 bg-blue-500 text-white rounded hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        Send
+                    </button>
+                </div>
+                <div id="response-box" className=" w-full mt-4 p-4 bg-gray-800 rounded text-white"></div>
+            </div>
             </div>
 
         </>
