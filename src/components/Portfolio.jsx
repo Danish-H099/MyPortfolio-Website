@@ -2,7 +2,7 @@ export default function Portfolio() {
     return (
         <section id="portfolio" style={{ padding: '60px 20px' }}>
             <div className="container" style={{ maxWidth: '1200px', margin: '0 auto' }}>
-                <h1 className="subtitle" style={{ fontSize: '28px', color: '#333', marginBottom: '40px' }}>My Work</h1>
+                <h1 className="text-4xl text-white mb-5">Work</h1>
                 <div className="work-list" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '20px' }}>
                     <div className="work" style={{ position: 'relative', overflow: 'hidden', borderRadius: '8px' }}>
                         <img src="work-1.png" alt="" style={{ width: '100%' }} />

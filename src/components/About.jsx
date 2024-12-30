@@ -26,7 +26,7 @@ export default function About() {
                         <p className="leading-7 text-gray-600">
                             My name is Danish Hussain Dar. I am currently pursuing BTech in Computer Science from National Institute of Technology Patna. I love coding. I am passionate about learning new things, meeting new people, and exploring new experiences. I am enthusiastic about every new problem I come across. Always up for creating a positive environment. I am always open to learning new technologies and new skills. Flexible and willing to work in a growth-oriented environment.
                         </p>
-                        <div className="flex gap-5 mt-5 text-white">
+                        <div className="flex gap-5 mt-5 text-xl text-white ">
                             <p id="1" className="cursor-pointer font-bold text-[#d31c56]" onClick={() => openTab(1,'Skills')}>Skills</p>
                             <p  id="2" className="cursor-pointer font-bold" onClick={() => openTab(2,'Experience')}>Experience</p>
                             <p  id="3" className="cursor-pointer font-bold" onClick={() => openTab(3,'Education')}>Education</p>
@@ -36,7 +36,13 @@ export default function About() {
                                 <li><span className="font-bold">Web Development</span>
                                     <ul>
                                         <li>HTLM, CSS, JavaScript</li>
-                                        <li>React, Nodejs, Express, MySql, MongoDB</li>
+                                        <li>
+                                        <span className="text-[#3659d7]">React</span>, 
+                                        <span className="text-[#19722e]" > Nodejs</span>, 
+                                        <span className="text-[#e3e031]"> Express</span>, 
+                                        <span className="text-[#2768c3]"> MySql</span>, 
+                                        <span className="text-[#37962e]"> MongoDB</span>, 
+                                        </li>
                                     </ul>
                                 </li>
                                 <br></br>
